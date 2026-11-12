@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 2026-1400-fixed
+# rev 2026-1400-clean
 
 index.html
 jb.html
@@ -16,7 +16,3 @@ patches/1400.bin
 
 NETWORK:
 *
-
-FALLBACK:
-index.html index.html
-jb.html jb.html
