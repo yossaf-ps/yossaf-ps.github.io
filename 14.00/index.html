@@ -98,8 +98,7 @@
 
 <p class="sub" lang="ar" dir="rtl">استضافة PS4 &mdash; الإصدارات المدعومة</p>
 <!-- keep this list in sync with SUPPORTED in the script below -->
-<p class="fw" dir="ltr"><span>13.02</span><span>13.04</span><span>13.50</span><span>13.52</span></p>
-
+<p class="fw" dir="ltr"><span>14.00</span></p>
 <div id="wrap">
   <div id="state">detecting firmware...</div>
   <div id="det"></div>
@@ -150,7 +149,7 @@
     }
     paintStats();
 
-    var SUPPORTED = { 1302: 1, 1304: 1, 1350: 1, 1352: 1 }; // all measured on hardware
+    var SUPPORTED = { 1400: 1 }; // all measured on hardware
 
     var key = null, fwnum = null;
     var m = /PlayStation\s+4[\/ ](\d+)\.(\d+)/.exec(navigator.userAgent);
